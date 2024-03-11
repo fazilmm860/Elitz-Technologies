@@ -2623,11 +2623,13 @@ input, select, textarea {
 			ul.icons li .icon {
 				font-size: 0.8em;
 			}
+			
 
 				ul.icons li .icon:before {
 					font-size: 2em;
 				}
 
+				
 /* Actions */
 
 	ul.actions {
@@ -2749,6 +2751,7 @@ input, select, textarea {
 						}
 
 		}
+
 
 /* Table */
 
@@ -4109,3 +4112,53 @@ input, select, textarea {
 					}
 
 	}
+	/* Section Titles*/
+	.section-title {
+		padding-bottom: 40px;
+	  }
+	  
+	  .section-title h2 {
+		font-size: 25px;
+		font-weight: 900;
+		padding: 0;
+		line-height: 1px;
+		margin: 0 0 5px 0;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		color: #fbf5f5;
+		font-family: "Poppins", sans-serif;
+	  }
+	  
+	  .section-title h2::after {
+		content: "";
+		width: 120px;
+		height: 1px;
+		display: inline-block;
+		background: #ec0b96;
+		margin: 4px 10px;
+	  }
+	  
+	  .section-title p {
+		margin: 0;
+		margin: 0;
+		font-size: 36px;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-family: "Poppins", sans-serif;
+		color: #151515;
+	  }
+	/* End Section Titles */
+	.submit-btn{
+		background: #ea2a4f;
+		border: 0;
+		padding: 10px 24px;
+		color: #151515;
+		transition: 0.4s;
+		border-radius: 4px;
+		margin-top: 10px;
+	  }
+	  .submit-btn:hover{
+		background: #000;
+		color: #ea2a4f;
+		font-weight:bold;
+	  }
